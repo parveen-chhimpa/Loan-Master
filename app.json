@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Easy Loan",
+    "slug": "project_1",
+    "privacy":"public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.2.7",
+    "orientation": "portrait",
+    "icon": "./assets/easyLogo.png",
+    "splash": {
+      "image": "./assets/1st.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android":{
+      "package" : "com.loan.bansal_associates_loan",
+      "config" : {
+        "googleMobileAdsAppId": "ca-app-pub-6875583242897347~1480722881"
+      },
+      "versionCode" : 27,
+      "adaptiveIcon": {
+        "foregroundImage" :"./assets/easyLogo.png" ,
+        "backgroundColor" : "#ffffff"
+      }
+    }
+  }
+}
